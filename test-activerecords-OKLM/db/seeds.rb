@@ -9,5 +9,16 @@
 require 'faker'
 # Creating 100 fake users
 100.times do
-  user = User.create(name: Faker::Company.name, address: Faker::Internet.mail)
+  user = User.create(name: Faker::Name.name)
+end
+
+
+#Creating 150 fake articles with name, body and description
+150.times do
+ articles = Article.create(name: Faker::Company.name, body: Faker::Lorem.paragraph, description: Faker::Lorem.sentence)
+end
+
+#Creating 200 fake categories with name
+200.times do
+ categories = Category.create(name: Faker::Commerce.department(2, true))
 end
