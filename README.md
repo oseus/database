@@ -34,7 +34,7 @@ N'hésitez pas à voir les fichers Ruby du dossier "migrate" qui explique pas à
 Pour celui-ci il faut que vous regardiez le fichier Ruby "Seed.rb" qui montre la démarche (bon un peu moins pas à pas mais il peut être comique à lire pour certains^^).
 Bien que les tables soient liés, je n'ai pas réussi à lier les éléments dans les tables (et ça malgré la super commande du tutoriel de THP.... mais bon si je suis le seul pour lequel ça a foiré j'ai hâte que tu m'explique comment faire ;) )
 
-Ah j'oubliais, les premiers qui sont links(users_id "1", articles_id "1", bien que pas sûre que ça vous les affiches) ce sont des faits maisons, ou plutôt faits souris c'est pour que ceux qui veulent jouer avec les lignes de commandes voient que les Tables sont vraiments liées (et aussi pour montrer que c'est possible de remplir les colonnes "_id" à la main mais comme j'ai dit pas sûre que ça vous les affiches de toutes façon, vous me direz demain^^)
+Ah j'oubliais, les premiers qui sont links(users_id "1", articles_id "1", bien que pas sûre que ça vous les affiches) ce sont des faits maisons, ou plutôt faits souris c'est pour que ceux qui veulent jouer avec les lignes de commandes aient un petit exemple sur lequel s'amuser pour voir que les Tables sont vraiments liées (et aussi pour montrer que c'est possible de remplir les colonnes "_id" à la main mais comme j'ai dit pas sûre que ça vous les affiches de toutes façon, vous me direz demain^^)
 
 ##Exercice 3 : l'heure contre la montre
 
