@@ -1,0 +1,2 @@
+class Baka < ApplicationRecord
+end
